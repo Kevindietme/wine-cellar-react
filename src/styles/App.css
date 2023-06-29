@@ -53,6 +53,11 @@ h1, h2, h3, p {
   display: block
 }
 
+body { 
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,74,212,1) 35%, rgba(0,212,255,1) 100%);
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
   .drink-list > div {
